@@ -1,0 +1,104 @@
+
+/*
+
+Codo a codo
+Full Stack Java
+Comisión 24115
+Grupo 23
+Tarea 3
+
+Fecha: 15/04/24
+Última actalización: 15/04/24
+● Utilizar CSS para aplicar formatos a los párrafos, títulos y demás 
+elementos de las páginas HTML de nuestro proyecto.
+● Utilizar CSS en el formulario
+
+*/
+
+
+h1{
+
+    color: forestgreen;
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+h2{
+    color:sienna;
+}
+
+h3{
+    color:darkslateblue
+}
+
+h4{
+    color: forestgreen;
+    text-align: center;
+}
+
+
+h5{
+    color: sienna;
+    text-align: center;
+    font-size: 70px;
+}
+
+h6{
+    color: blue;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#4d5656;
+    padding: 3%;
+}
+
+ul{
+    color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3%;
+}
+
+form{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #58d68d;
+}
+
+section{
+    background-color:mediumseagreen;
+    border-radius: 5px;
+}
+
+section:first-of-type{
+    background-color:#d0ece7;
+    border: 2px solid #4d5656;
+}
+
+section:last-of-type {
+    background-color:#7bb5a3;
+    border: 2px solid #4d5656;
+}
+
+
+.container {
+    background:#7bb5a3;
+    display: flex;
+    justify-content: space-around;
+    row-gap:normal;
+    column-gap: normal;
+}
+
+footer{
+    padding: 3%;
+}
+
+
+
